@@ -1,0 +1,20 @@
+configuração da conta local do GIT:
+git config --global user.name AnnaBeatrizSilva2904
+git config --global user.email annabeatryz2504@gmail.com
+
+---------------------------//---------------------------
+
+npx create-expo-app@latest ToDoList --template blank
+
+Entrar na pasta do projeto:
+- cd ToDoList
+
+Instalar o Expo Router:
+- npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+
+Instalar o Pacote de Storage:
+- npx expo install @react-native-async-storage/async-storage
+
+Rodar o projeto:
+- npx expo start --localhost --android
